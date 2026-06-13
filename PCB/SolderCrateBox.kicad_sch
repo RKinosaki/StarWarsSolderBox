@@ -3013,7 +3013,7 @@
 	)
 	(sheet
 		(at 101.6 37.465)
-		(size 17.78 53.34)
+		(size 17.78 36.195)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3027,7 +3027,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bdae4741-d9be-4998-a644-1c8a254d194f")
-		(property "Sheetname" "ESP32"
+		(property "Sheetname" "ESP32_C3"
 			(at 101.6 36.7534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +3039,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 101.6 91.3896 0)
+			(at 101.6 74.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
