@@ -771,6 +771,16 @@
 		)
 		(uuid "2b3e2ec3-28ae-4691-814d-dbcebaaea1bd")
 	)
+	(text "ADD the INA current sensor for SoC calculation"
+		(exclude_from_sim no)
+		(at 76.962 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d1c5c47-f56d-4c34-aec5-85d7a828da30")
+	)
 	(text "Limit Switch Conn"
 		(exclude_from_sim no)
 		(at 56.134 23.368 0)
@@ -1197,7 +1207,7 @@
 		(uuid "c0c69e23-c7fb-44c4-ad69-c858d8124e6e")
 	)
 	(label "LED.DATA"
-		(at 124.46 62.23 0)
+		(at 125.73 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
