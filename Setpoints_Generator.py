@@ -1,8 +1,8 @@
 import math
 
 samples = 100
-start_pos = 90
-end_pos = 180
+start_pos = 20
+end_pos = 92
 pos_range = abs(end_pos - start_pos)
 
 step = 1/(samples-1)
@@ -17,7 +17,7 @@ for i in range(samples):
         y=abs(y*pos_range - start_pos)
     else:
         y = y*pos_range + start_pos
-    y = round(y, 3)
+    y = round(y, 0)
     waypoints.append(y)
 
 
