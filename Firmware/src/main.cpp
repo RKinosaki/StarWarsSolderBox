@@ -3,16 +3,32 @@
 #include <ESP32Servo.h>
 #include <sv1_setpoints.h>
 #include <sv2_setpoints.h>
+#include <Adafruit_INA219.h>
+#include <Wire.h>
 
 Servo sv1;
 Servo sv2;
+Adafruit_INA219 ina;
 float voltage;
+float cellVoltage;
+float cellCurrent;
 
 void setup() {
+  Wire.begin(0, 1);
   Serial.begin(115200);
 
 
-  delay(5000);
+  delay(100);
+  if(!ina.begin()){
+    Serial.write("Current Sensor Initialisation Error!");
+    while (1){
+      delay(10);
+    }
+  } 
+
+  ina.setCalibration_16V_400mA();
+
+  delay(2000);
 
 
   ESP32PWM::allocateTimer(0);
@@ -73,5 +89,14 @@ void setup() {
 
 
 void loop() {
-  delay(10);
+  cellVoltage = ina.getShuntVoltage_mV()/1000 + ina.getBusVoltage_V();
+  cellCurrent = ina.getCurrent_mA();
+  Serial.print("Cell Voltage (V): ");
+  Serial.println(ina.getShuntVoltage_mV());
+  Serial.println(ina.getBusVoltage_V());
+  Serial.println(cellVoltage);
+
+  Serial.print("Cell Current (mA): ");
+  Serial.println(cellCurrent);
+  delay(1000);
 }

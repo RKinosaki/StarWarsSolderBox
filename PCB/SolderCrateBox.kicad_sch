@@ -5,6 +5,243 @@
 	(uuid "b3024c44-8b84-40bc-8b06-c542fd883415")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capacitor_2:TAJE477K010RNJ"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TAJE477K010RNJ"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPM7344X430N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://datasheets.avx.com/TAJ.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Tantalum Capacitors - Solid SMD 10volts 470uF 10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "4.3"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "581-TAJE477K010R"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TAJE477K010RNJ?qs=fdqkYiOtZpfMNUf7kXBNHA%3D%3D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TAJE477K010RNJ"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TAJE477K010RNJ_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -762,7 +999,7 @@
 	)
 	(text "LiPo Conn"
 		(exclude_from_sim no)
-		(at 23.368 23.368 0)
+		(at 25.908 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -771,19 +1008,19 @@
 		)
 		(uuid "2b3e2ec3-28ae-4691-814d-dbcebaaea1bd")
 	)
-	(text "ADD the INA current sensor for SoC calculation"
+	(text "470u"
 		(exclude_from_sim no)
-		(at 76.962 72.898 0)
+		(at 209.55 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "3d1c5c47-f56d-4c34-aec5-85d7a828da30")
+		(uuid "7f0699bf-ed5c-4df2-8fc3-043b472ce91e")
 	)
 	(text "Limit Switch Conn"
 		(exclude_from_sim no)
-		(at 56.134 23.368 0)
+		(at 58.674 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,35 +1029,63 @@
 		)
 		(uuid "7fed2bf6-d34e-4d61-af79-a18f544aae43")
 	)
+	(text "470u"
+		(exclude_from_sim no)
+		(at 210.566 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de348c63-dbe2-4975-bfac-95f29937b52b")
+	)
+	(junction
+		(at 177.8 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49628ee1-cb0c-4adc-bbda-955b122341b5")
+	)
 	(junction
 		(at 171.45 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36cc8703-ce3b-42ca-acda-dee84f05ce84")
+		(uuid "4e4156e9-6aba-40bc-998a-08d9c781b7f1")
 	)
 	(junction
-		(at 96.52 39.37)
+		(at 190.5 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39e7d32e-34ae-4fce-b941-9e79f817f499")
+		(uuid "50d33734-1c57-4b2a-a167-0f43a2abd531")
 	)
 	(junction
-		(at 176.53 104.14)
+		(at 190.5 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a5747c7-e8ba-4435-aaee-45f1f5cfddcd")
+		(uuid "6fd9f20a-ff51-44a4-8e99-d25e5f1fe771")
 	)
 	(junction
-		(at 176.53 82.55)
+		(at 190.5 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6d2fb8a-3b84-4771-af1b-2aa5ad030ac1")
+		(uuid "7706aafd-c8e7-4edd-8f24-026b8bb64009")
 	)
 	(junction
-		(at 176.53 96.52)
+		(at 177.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac5e9b8a-e598-4040-a7b5-5b2f09144ace")
+		(uuid "819ba006-8867-4f5b-872d-31b0cf5faa25")
+	)
+	(junction
+		(at 166.37 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9311cf68-8f73-4ad2-a386-64c818c07da2")
+	)
+	(junction
+		(at 177.8 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8c658a5-0a02-460f-a90e-d9b09edfa45e")
 	)
 	(junction
 		(at 163.83 102.87)
@@ -829,26 +1094,52 @@
 		(uuid "ae653873-ec3f-4cee-842d-ee26ee3b1f18")
 	)
 	(junction
+		(at 190.5 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5a5b1cf-720f-4d37-aab9-2bf19c04a82b")
+	)
+	(junction
 		(at 163.83 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6a402b0-7908-45e6-99e0-96c6b31bff84")
 	)
 	(junction
-		(at 176.53 74.93)
+		(at 177.8 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7d8d75e-f34f-4439-95a8-63cf779d4938")
+		(uuid "cc5abe57-e2ea-4633-89f1-503c863d52b5")
 	)
 	(junction
-		(at 166.37 74.93)
+		(at 96.52 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f346b0bb-c668-4861-94c2-16c9099b16c6")
+		(uuid "eae9b5f5-6d96-4730-a7d7-c094eb02af98")
 	)
 	(wire
 		(pts
-			(xy 90.17 41.91) (xy 101.6 41.91)
+			(xy 203.2 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0268132f-0219-40b7-a549-cb267f9cd2fe")
+	)
+	(wire
+		(pts
+			(xy 46.99 29.21) (xy 46.99 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0402a4a4-ba42-4b44-978c-65588119bdd1")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -868,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 96.52 39.37)
+			(xy 86.36 35.56) (xy 82.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 176.53 74.93)
+			(xy 166.37 74.93) (xy 177.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -888,13 +1179,83 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 190.5 74.93)
+			(xy 97.79 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fdb771f-812d-4b19-99a9-205b3ecc5bef")
+		(uuid "1e63ecc3-584d-40ff-9aab-0d5d06ce1c7a")
+	)
+	(wire
+		(pts
+			(xy 58.42 57.15) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21845c56-efc8-4746-be8e-aef7ee721812")
+	)
+	(wire
+		(pts
+			(xy 97.79 46.99) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225e9630-fee7-496d-989b-94cc00d95590")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249c21ba-840a-4210-8ee0-4cd6c754843c")
+	)
+	(wire
+		(pts
+			(xy 57.15 35.56) (xy 62.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250a66c6-26af-4651-9f3e-f2eb6b298b3a")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbd8976-1344-4f85-9801-27abe9d365e9")
+	)
+	(wire
+		(pts
+			(xy 27.94 50.8) (xy 31.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377707e1-36bf-4249-8833-81c413bd96a4")
+	)
+	(wire
+		(pts
+			(xy 190.5 95.25) (xy 190.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0dec6c-20f5-4aa0-aa6b-f14ab5dde793")
 	)
 	(wire
 		(pts
@@ -908,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 86.36) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc0a192-514c-4693-a168-5b349c74bac6")
+	)
+	(wire
+		(pts
 			(xy 158.75 44.45) (xy 162.56 44.45)
 		)
 		(stroke
@@ -915,6 +1286,16 @@
 			(type default)
 		)
 		(uuid "4b85a8c9-fcb9-411e-94d8-34d1963a737c")
+	)
+	(wire
+		(pts
+			(xy 27.94 50.8) (xy 27.94 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55499426-9a35-4f31-b31f-1da98588ecff")
 	)
 	(wire
 		(pts
@@ -938,13 +1319,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 41.91) (xy 83.82 69.85)
+			(xy 86.36 35.56) (xy 86.36 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b1d40cd-11b8-4b8b-b01c-5fc34c497641")
+		(uuid "6c3a13fb-08d0-4f30-813d-3f159973dbb7")
 	)
 	(wire
 		(pts
@@ -968,23 +1349,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 36.83) (xy 72.39 36.83)
+			(xy 87.63 27.94) (xy 87.63 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "738fdd2c-7b1d-45c8-9c38-06ed6b2a79b2")
+		(uuid "702d81b9-a2b5-4235-968e-c83ac6bace3f")
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 101.6 69.85)
+			(xy 53.34 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7439c482-63d2-498a-a38f-4eee37488e46")
+		(uuid "73ba671c-7fec-44ff-8887-7875b6b52b7d")
+	)
+	(wire
+		(pts
+			(xy 87.63 33.02) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76558713-08fa-4c55-bdd9-180ed4446bfb")
 	)
 	(wire
 		(pts
@@ -995,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "7bd64f3c-bcaa-4980-9cd0-330fb5ab9661")
+	)
+	(wire
+		(pts
+			(xy 204.47 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efb0778-39b4-4856-867c-eaa44cda8d80")
 	)
 	(wire
 		(pts
@@ -1018,13 +1419,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 52.07 36.83)
+			(xy 204.47 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86201cee-20a5-4504-9e7a-e51f5faa98b7")
+		(uuid "8948890f-682d-44eb-becb-42d51a1ac430")
+	)
+	(wire
+		(pts
+			(xy 53.34 50.8) (xy 53.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e705a2e-0129-4c8e-b6c5-04bb83b96a9d")
 	)
 	(wire
 		(pts
@@ -1038,13 +1449,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 190.5 104.14)
+			(xy 53.34 50.8) (xy 52.07 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b2fdef6-dffe-4310-9670-690038a5d69d")
+		(uuid "94bc72c0-edd2-4e10-a978-6e1191d2cfed")
 	)
 	(wire
 		(pts
@@ -1058,7 +1469,37 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 171.45 96.52)
+			(xy 57.15 30.48) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af29f607-2287-4dd1-941c-6c3e63340ffa")
+	)
+	(wire
+		(pts
+			(xy 58.42 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7572b72-ec2d-4703-9554-b3833303d518")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 190.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89fe515-2c9f-4d6d-b993-e7a06ea7a9ef")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1068,27 +1509,37 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 190.5 96.52)
+			(xy 203.2 95.25) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0628213-756d-4105-9dea-7e59a4ce50f7")
+		(uuid "c50a9521-cfa1-4431-8c2e-b8efa0d75c7d")
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 52.07 39.37)
+			(xy 86.36 39.37) (xy 96.52 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3be9241-561b-4272-848f-b816aeb9f154")
+		(uuid "c6f8d614-d0b9-4fca-bda7-7b01f5c41dc4")
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 176.53 104.14)
+			(xy 27.94 29.21) (xy 46.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90f25b4-9231-4b60-9023-ec9618e6c7b2")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 25.4) (xy 44.45 25.4)
+			(xy 34.29 19.05) (xy 46.99 19.05)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 167.64 82.55)
+			(xy 167.64 82.55) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1158,33 +1609,63 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 41.91) (xy 72.39 41.91)
+			(xy 177.8 74.93) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3c794f4-b8d3-4255-b69e-82b3ef9247e5")
+		(uuid "f308ec89-97fc-409c-a5b1-eaf197d93dd1")
 	)
 	(wire
 		(pts
-			(xy 44.45 27.94) (xy 44.45 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f436a782-93ef-43db-9635-bad4351c0ca3")
-	)
-	(wire
-		(pts
-			(xy 190.5 82.55) (xy 176.53 82.55)
+			(xy 190.5 82.55) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc4de8f2-8708-4b3f-8c4a-82b203f933b6")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdba6b9b-b389-40c7-bc7d-ba1fe88263e7")
+	)
+	(label "I2C.SCL"
+		(at 58.42 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0efc6db1-09c8-472f-ad94-6cb925c848db")
+	)
+	(label "PWM.SRV2"
+		(at 97.79 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11a43575-bdf9-4872-816f-513fa8794684")
+	)
+	(label "I2C.SDA"
+		(at 58.42 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ec6c4a1-2340-4c7a-9bba-c17222dda382")
 	)
 	(label "LED.DATA"
 		(at 158.75 49.53 180)
@@ -1197,14 +1678,14 @@
 		(uuid "46cfc501-add7-4936-8491-0ef9c09bf802")
 	)
 	(label "PWM.SRV1"
-		(at 97.79 59.69 180)
+		(at 97.79 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c0c69e23-c7fb-44c4-ad69-c858d8124e6e")
+		(uuid "8c55d088-e186-433a-9631-b7064c0ab946")
 	)
 	(label "LED.DATA"
 		(at 125.73 62.23 0)
@@ -1226,15 +1707,25 @@
 		)
 		(uuid "d3368c41-0afc-471e-bcf1-755683b09dbf")
 	)
-	(label "PWM.SRV2"
-		(at 97.79 57.15 180)
+	(label "I2C.SCL"
+		(at 97.79 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dc438e6b-7be7-4600-ae39-6cc1c10445ef")
+		(uuid "e96568be-1b8b-45a7-83bd-52df81d3bbe8")
+	)
+	(label "I2C.SDA"
+		(at 97.79 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f73e7fad-d1d6-4655-9ec5-e95d8864c868")
 	)
 	(label "PWM.SRV1"
 		(at 163.83 78.74 0)
@@ -1248,7 +1739,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 78.74 0)
+		(at 177.8 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1259,7 +1750,7 @@
 		(fields_autoplaced yes)
 		(uuid "02797e0f-e8e3-4926-8047-6dd03a69cd69")
 		(property "Reference" "C1"
-			(at 180.34 77.4699 0)
+			(at 181.61 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1270,7 +1761,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 180.34 80.0099 0)
+			(at 181.61 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1281,7 +1772,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 177.4952 82.55 0)
+			(at 178.7652 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +1783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 78.74 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1303,7 +1794,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 78.74 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,7 +1911,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04476be1-896a-4cba-8b86-caff34fb0584")
 		(property "Reference" "#PWR010"
 			(at 158.75 48.26 0)
@@ -1433,14 +1923,15 @@
 				)
 			)
 		)
-		(property "Value" "+V_{BATT}"
-			(at 158.75 39.37 0)
+		(property "Value" "+V_{SYS}"
+			(at 156.972 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1490,7 +1981,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 77.47 36.83 0)
+		(at 87.63 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1501,7 +1992,7 @@
 		(fields_autoplaced yes)
 		(uuid "1077f8b8-12db-4e8a-bd8b-77734d3eb99e")
 		(property "Reference" "#PWR07"
-			(at 77.47 40.64 0)
+			(at 87.63 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1511,18 +2002,19 @@
 				)
 			)
 		)
-		(property "Value" "+V_{BATT}"
-			(at 77.47 31.75 0)
+		(property "Value" "+V_{SYS}"
+			(at 90.17 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 36.83 0)
+			(at 87.63 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,7 +2025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 36.83 0)
+			(at 87.63 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +2036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 77.47 36.83 0)
+			(at 87.63 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,7 +2060,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 49.53 27.94 0)
+		(at 52.07 21.59 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1579,7 +2071,7 @@
 		(dnp no)
 		(uuid "305300ae-caac-409d-a3f3-6db9af1ac7b3")
 		(property "Reference" "J2"
-			(at 52.07 27.94 0)
+			(at 54.61 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1590,7 +2082,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 52.07 25.4 0)
+			(at 54.61 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1600,8 +2092,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 49.53 27.94 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1612,7 +2104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 27.94 0)
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +2115,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 27.94 0)
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1643,162 +2135,6 @@
 			(project "SolderCrateBox"
 				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 166.37 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47d6cee6-1565-424a-8291-ca50117b5327")
-		(property "Reference" "#PWR011"
-			(at 166.37 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+V_{BATT}"
-			(at 166.37 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 166.37 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30de0eb9-3e1e-463c-9763-6b045ef3cd80")
-		)
-		(instances
-			(project "SolderCrateBox"
-				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 171.45 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a6da157-c598-4c48-88ae-c814ec9f0aff")
-		(property "Reference" "#PWR020"
-			(at 171.45 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+V_{BATT}"
-			(at 171.45 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 171.45 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "debb6dab-b1dc-45c9-92aa-d7dfd04eb099")
-		)
-		(instances
-			(project "SolderCrateBox"
-				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1839,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 158.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1892,7 +2228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 27.94 0)
+		(at 34.29 21.59 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1904,7 +2240,7 @@
 		(fields_autoplaced yes)
 		(uuid "6330d46a-1a5d-4f89-be19-7c17ad2a7063")
 		(property "Reference" "#PWR01"
-			(at 31.75 34.29 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1915,7 +2251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 33.02 0)
+			(at 34.29 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1925,7 +2261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 27.94 0)
+			(at 34.29 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1936,7 +2272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 27.94 0)
+			(at 34.29 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1947,7 +2283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 27.94 0)
+			(at 34.29 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +2307,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 38.1 39.37 0)
+		(at 57.15 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1981,7 +2317,7 @@
 		(dnp no)
 		(uuid "672d6424-2722-461a-887f-325addca39b8")
 		(property "Reference" "#PWR02"
-			(at 38.1 43.18 0)
+			(at 57.15 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1992,7 +2328,7 @@
 			)
 		)
 		(property "Value" "+V_{BUS}"
-			(at 37.846 29.718 90)
+			(at 59.436 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2003,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 39.37 0)
+			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 39.37 0)
+			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 38.1 39.37 0)
+			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2126,8 +2462,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 41.91 0)
+		(lib_id "Capacitor_2:TAJE477K010RNJ")
+		(at 204.47 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2136,9 +2472,55 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90058688-b274-4671-84d9-9acc7b5530db")
-		(property "Reference" "#PWR04"
-			(at 90.17 48.26 0)
+		(uuid "7f0c051c-3dc3-4efb-b72e-6b640ce50e21")
+		(property "Reference" "C9"
+			(at 208.28 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TAJE477K010RNJ"
+			(at 208.28 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPM7344X430N"
+			(at 108.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/TAJ.pdf"
+			(at 8.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Tantalum Capacitors - Solid SMD 10volts 470uF 10%"
+			(at 204.47 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2148,8 +2530,96 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 46.99 0)
+		(property "Height" "4.3"
+			(at -191.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJE477K010R"
+			(at -291.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TAJE477K010RNJ?qs=fdqkYiOtZpfMNUf7kXBNHA%3D%3D"
+			(at -391.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -491.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TAJE477K010RNJ"
+			(at -591.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "28e7beef-100e-47a7-8704-d82f0ed6f493")
+		)
+		(pin "1"
+			(uuid "d4d3b8dd-bedf-43e4-bbb4-25da41dddfed")
+		)
+		(instances
+			(project "SolderCrateBox"
+				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 166.37 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e433039-cc0c-4395-835a-b80174989f1c")
+		(property "Reference" "#PWR011"
+			(at 166.37 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2158,8 +2628,19 @@
 				)
 			)
 		)
+		(property "Value" "+V_{SYS}"
+			(at 168.91 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 90.17 41.91 0)
+			(at 166.37 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +2651,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 41.91 0)
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17cbd63b-bc64-4394-b8ff-9bd65abda62f")
+		)
+		(instances
+			(project "SolderCrateBox"
+				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90058688-b274-4671-84d9-9acc7b5530db")
+		(property "Reference" "#PWR04"
+			(at 83.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 41.91 0)
+			(at 83.82 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +3032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2519,6 +3078,150 @@
 			(project "SolderCrateBox"
 				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_2:TAJE477K010RNJ")
+		(at 203.2 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6e465d-d2dc-4d1b-8243-7d1e57091b5b")
+		(property "Reference" "C11"
+			(at 207.01 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TAJE477K010RNJ"
+			(at 207.01 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPM7344X430N"
+			(at 107.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/TAJ.pdf"
+			(at 7.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Tantalum Capacitors - Solid SMD 10volts 470uF 10%"
+			(at 203.2 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.3"
+			(at -192.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJE477K010R"
+			(at -292.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TAJE477K010RNJ?qs=fdqkYiOtZpfMNUf7kXBNHA%3D%3D"
+			(at -392.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -492.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TAJE477K010RNJ"
+			(at -592.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "126ef805-09e7-4570-8cce-b783d673bd73")
+		)
+		(pin "1"
+			(uuid "659f5511-258a-46f5-8db7-a54ba2f21938")
+		)
+		(instances
+			(project "SolderCrateBox"
+				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2685,8 +3388,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+6V")
+		(at 171.45 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8776d93-933d-4470-8e27-2b62a7cccadf")
+		(property "Reference" "#PWR020"
+			(at 171.45 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_{SYS}"
+			(at 173.99 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14952fe0-f7c3-4680-938e-24e7b41121b8")
+		)
+		(instances
+			(project "SolderCrateBox"
+				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 25.4 0)
+		(at 29.21 19.05 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2698,7 +3480,7 @@
 		(fields_autoplaced yes)
 		(uuid "e219172f-9c69-4ba1-a810-b605900c5ebe")
 		(property "Reference" "J1"
-			(at 24.13 25.3999 0)
+			(at 26.67 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2709,7 +3491,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 24.13 27.9399 0)
+			(at 26.67 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2719,8 +3501,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 26.67 25.4 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 29.21 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +3513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 25.4 0)
+			(at 29.21 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +3524,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 25.4 0)
+			(at 29.21 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +3551,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 100.33 0)
+		(at 177.8 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2780,7 +3562,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd6c5230-ff6d-4735-b61d-59db2e3d2aae")
 		(property "Reference" "C2"
-			(at 180.34 99.0599 0)
+			(at 181.61 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2791,7 +3573,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 180.34 101.5999 0)
+			(at 181.61 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2802,7 +3584,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 177.4952 104.14 0)
+			(at 178.7652 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +3595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 100.33 0)
+			(at 177.8 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +3606,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 100.33 0)
+			(at 177.8 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,6 +3627,92 @@
 				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
 					(reference "C2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 49.53)
+		(size 20.32 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "12d6844a-2ac0-4174-82ba-62c9afc514b1")
+		(property "Sheetname" "VI_Sensor"
+			(at 31.75 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VI_Sensor.kicad_sch"
+			(at 31.75 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_{In}" input
+			(at 31.75 50.8 180)
+			(uuid "f2f38282-f5f1-49b8-b252-e6a09a0c4ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 52.07 54.61 0)
+			(uuid "5e590fa0-4cbd-40f2-bf70-c7ade15203d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{OUT}" output
+			(at 52.07 50.8 0)
+			(uuid "1729684f-5258-414c-b0e2-334b5460244e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 52.07 57.15 0)
+			(uuid "a7fd86dd-f3a1-48a4-baec-8e6d2b221d5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SolderCrateBox"
+				(path "/b3024c44-8b84-40bc-8b06-c542fd883415"
+					(page "5")
 				)
 			)
 		)
@@ -2926,7 +3794,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 35.56)
+		(at 62.23 31.75)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2942,7 +3810,7 @@
 		)
 		(uuid "7eb0a83a-3f11-49be-aef3-d3c72c6e5029")
 		(property "Sheetname" "Boost"
-			(at 52.07 34.8484 0)
+			(at 62.23 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2953,7 +3821,7 @@
 			)
 		)
 		(property "Sheetfile" "Boost.kicad_sch"
-			(at 52.07 46.3046 0)
+			(at 62.23 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +3832,7 @@
 			)
 		)
 		(pin "+3V3" output
-			(at 72.39 39.37 0)
+			(at 82.55 35.56 0)
 			(uuid "be3e5516-1626-4ee5-8851-8e34b94e1fec")
 			(effects
 				(font
@@ -2973,18 +3841,8 @@
 				(justify right)
 			)
 		)
-		(pin "V_{Sense}" output
-			(at 72.39 41.91 0)
-			(uuid "efb26c7d-27c6-41d9-b24e-220d7ad3a88b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BATT_{IN}" input
-			(at 52.07 36.83 180)
+		(pin "V_{IN}" input
+			(at 62.23 33.02 180)
 			(uuid "a9a0c991-6087-4090-a04e-8acb3c9f099e")
 			(effects
 				(font
@@ -2994,7 +3852,7 @@
 			)
 		)
 		(pin "+V_{BUS}" input
-			(at 52.07 39.37 180)
+			(at 62.23 35.56 180)
 			(uuid "7a24023a-e998-4f1a-b26d-bf70f828a2c8")
 			(effects
 				(font
@@ -3003,9 +3861,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_{BATT}" output
-			(at 72.39 36.83 0)
-			(uuid "5af0f596-bc3c-4d50-a3d8-b2814ba412c3")
+		(pin "V_{SYS}" output
+			(at 82.55 33.02 0)
+			(uuid "f9e054c3-9326-4c67-bd68-422cb9eca93d")
 			(effects
 				(font
 					(size 1.27 1.27)
