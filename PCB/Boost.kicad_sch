@@ -2396,7 +2396,7 @@
 		)
 		(uuid "a222edd5-7924-4842-bd89-7734d11fd845")
 	)
-	(text "22m"
+	(text "220m"
 		(exclude_from_sim no)
 		(at 40.64 90.424 0)
 		(effects
