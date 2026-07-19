@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -125,7 +119,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "warning",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -209,11 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.508
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -240,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -464,7 +449,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -482,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -504,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SolderCrateBox.kicad_pro",
+    "filename": "LED_PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -538,14 +522,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/C1v2t/Desktop/Projects/StarWarsSolderBox/PCB/GERBER/",
-      "pos_files": "",
+      "plot": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -556,7 +536,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "C:\\Users\\C1v2t\\Desktop\\Projects\\Lab Rover\\Odyssey_Var_B\\Power Distribution Board\\PCB\\Fabrication V2.0\\LabRover_PDB.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -618,66 +598,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -710,49 +636,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "SolderCrateBox.kicad_sch",
-        "name": "SolderCrateBox",
-        "uuid": "b3024c44-8b84-40bc-8b06-c542fd883415"
+        "filename": "LED_PCB.kicad_sch",
+        "name": "Root",
+        "uuid": "a2d0f70f-10ba-4122-a8e3-bd22a11c077c"
       }
     ],
-    "used_designators": "R6,R12,R15,IC3,J6,#PWR21-26,C12",
+    "used_designators": "R1-2,J1-2,D1-3,#PWR1-8,C1-3",
     "variants": []
   },
   "sheets": [
     [
-      "b3024c44-8b84-40bc-8b06-c542fd883415",
-      "SolderCrateBox"
-    ],
-    [
-      "7eb0a83a-3f11-49be-aef3-d3c72c6e5029",
-      "Boost"
-    ],
-    [
-      "bdae4741-d9be-4998-a644-1c8a254d194f",
-      "ESP32_C3"
-    ],
-    [
-      "1cf0d38f-f4b0-410c-8069-f62344054adc",
-      "LED"
-    ],
-    [
-      "12d6844a-2ac0-4174-82ba-62c9afc514b1",
-      "VI_Sensor"
+      "a2d0f70f-10ba-4122-a8e3-bd22a11c077c",
+      "Root"
     ]
   ],
   "text_variables": {},

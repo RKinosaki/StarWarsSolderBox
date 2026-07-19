@@ -1359,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 33.02) (xy 62.23 33.02)
+			(xy 54.61 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 53.34 33.02)
+			(xy 54.61 50.8) (xy 54.61 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 52.07 50.8)
+			(xy 54.61 50.8) (xy 52.07 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPM7344X430N"
+		(property "Footprint" "Footprints:TAJE477K010RNJ"
 			(at 108.28 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3117,7 +3117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPM7344X430N"
+		(property "Footprint" "Footprints:TAJE477K010RNJ"
 			(at 107.01 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3669,17 +3669,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{In}" input
-			(at 31.75 50.8 180)
-			(uuid "f2f38282-f5f1-49b8-b252-e6a09a0c4ba0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA" bidirectional
+		(pin "SDA" input
 			(at 52.07 54.61 0)
 			(uuid "5e590fa0-4cbd-40f2-bf70-c7ade15203d1")
 			(effects
@@ -3689,9 +3679,9 @@
 				(justify right)
 			)
 		)
-		(pin "V_{OUT}" output
-			(at 52.07 50.8 0)
-			(uuid "1729684f-5258-414c-b0e2-334b5460244e")
+		(pin "SCL" input
+			(at 52.07 57.15 0)
+			(uuid "a7fd86dd-f3a1-48a4-baec-8e6d2b221d5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,9 +3689,19 @@
 				(justify right)
 			)
 		)
-		(pin "SCL" bidirectional
-			(at 52.07 57.15 0)
-			(uuid "a7fd86dd-f3a1-48a4-baec-8e6d2b221d5f")
+		(pin "INA_{IN}" input
+			(at 31.75 50.8 180)
+			(uuid "7e78368b-defe-4655-a147-f87d1469bc70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA_{OUT}" input
+			(at 52.07 50.8 0)
+			(uuid "f3fe3516-0db3-4d04-9f16-6a5d507bd652")
 			(effects
 				(font
 					(size 1.27 1.27)
