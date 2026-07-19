@@ -14,3 +14,4 @@ _autosave-*
 *.kicad_user
 
 .kicad_pcb-bal
+.history
